@@ -1,0 +1,16 @@
+{
+    "gspkauth": "", // cookie value from geocaching.com
+    "notfoundby": [ "" ], // geocaching.com usernames to exclude found caches for
+    "pushover_user": "", // pushover.net user
+	"pushover_token": "", // pushover.net token
+	"locations": [
+		{
+			"lat": "", // latitude for the first location
+			"lng": "" // longitude for the first location
+		},
+		{
+			"lat": "", // latitude for the second location
+			"lng": "" // longitude for the second location
+		}
+	]
+}
