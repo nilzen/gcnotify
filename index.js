@@ -1,8 +1,9 @@
 var settings = require('./settings'),
     request = require('request'),
     cheerio = require('cheerio'),
+    path = require('path'),
     sqlite3 = require('sqlite3').verbose(),
-    db = new sqlite3.Database('./gcnotify.db'),
+    db = new sqlite3.Database(path.join(__dirname, 'gcnotify.db')),
     push = require('pushover-notifications'),
     baseUrl = 'https://www.geocaching.com/play/search/?f=2&o=2';
     
